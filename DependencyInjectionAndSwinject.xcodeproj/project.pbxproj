@@ -15,6 +15,17 @@
 		8C839FF42C4AEE06005B4D35 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 8C839FF32C4AEE06005B4D35 /* Base */; };
 		8C839FFD2C4AEEA9005B4D35 /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = 8C839FFC2C4AEEA9005B4D35 /* Swinject */; };
 		8C839FFF2C4AEF19005B4D35 /* AppContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C839FFE2C4AEF19005B4D35 /* AppContainer.swift */; };
+		8C83A0022C4B074D005B4D35 /* HTTPRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C83A0012C4B074D005B4D35 /* HTTPRequest.swift */; };
+		8C83A0042C4B0760005B4D35 /* BasicHTTPRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C83A0032C4B0760005B4D35 /* BasicHTTPRequest.swift */; };
+		8C83A0062C4B0779005B4D35 /* JSONHTTPRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C83A0052C4B0779005B4D35 /* JSONHTTPRequest.swift */; };
+		8C83A0082C4B0799005B4D35 /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C83A0072C4B0799005B4D35 /* NetworkClient.swift */; };
+		8C83A00A2C4B082B005B4D35 /* URLSessionNetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C83A0092C4B082B005B4D35 /* URLSessionNetworkClient.swift */; };
+		8C83A00C2C4B0892005B4D35 /* DefaultNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C83A00B2C4B0892005B4D35 /* DefaultNetworkService.swift */; };
+		8C83A00E2C4B09F5005B4D35 /* AppetizersMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C83A00D2C4B09F5005B4D35 /* AppetizersMenuItem.swift */; };
+		8C83A0102C4B0A44005B4D35 /* DataContracts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C83A00F2C4B0A44005B4D35 /* DataContracts.swift */; };
+		8C83A0122C4B0A59005B4D35 /* DefaultDataPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C83A0112C4B0A59005B4D35 /* DefaultDataPresenter.swift */; };
+		8C83A0142C4B0BF1005B4D35 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C83A0132C4B0BF1005B4D35 /* DataViewController.swift */; };
+		8C83A0172C4B1C0F005B4D35 /* JSONDecoderService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C83A0162C4B1C0F005B4D35 /* JSONDecoderService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +38,17 @@
 		8C839FF32C4AEE06005B4D35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8C839FF52C4AEE06005B4D35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C839FFE2C4AEF19005B4D35 /* AppContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppContainer.swift; sourceTree = "<group>"; };
+		8C83A0012C4B074D005B4D35 /* HTTPRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPRequest.swift; sourceTree = "<group>"; };
+		8C83A0032C4B0760005B4D35 /* BasicHTTPRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicHTTPRequest.swift; sourceTree = "<group>"; };
+		8C83A0052C4B0779005B4D35 /* JSONHTTPRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONHTTPRequest.swift; sourceTree = "<group>"; };
+		8C83A0072C4B0799005B4D35 /* NetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
+		8C83A0092C4B082B005B4D35 /* URLSessionNetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionNetworkClient.swift; sourceTree = "<group>"; };
+		8C83A00B2C4B0892005B4D35 /* DefaultNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultNetworkService.swift; sourceTree = "<group>"; };
+		8C83A00D2C4B09F5005B4D35 /* AppetizersMenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizersMenuItem.swift; sourceTree = "<group>"; };
+		8C83A00F2C4B0A44005B4D35 /* DataContracts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataContracts.swift; sourceTree = "<group>"; };
+		8C83A0112C4B0A59005B4D35 /* DefaultDataPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultDataPresenter.swift; sourceTree = "<group>"; };
+		8C83A0132C4B0BF1005B4D35 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		8C83A0162C4B1C0F005B4D35 /* JSONDecoderService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONDecoderService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,16 +82,43 @@
 		8C839FE62C4AEE04005B4D35 /* DependencyInjectionAndSwinject */ = {
 			isa = PBXGroup;
 			children = (
+				8C839FFE2C4AEF19005B4D35 /* AppContainer.swift */,
 				8C839FE72C4AEE04005B4D35 /* AppDelegate.swift */,
+				8C839FF02C4AEE06005B4D35 /* Assets.xcassets */,
+				8C83A0152C4B0BF7005B4D35 /* Data View Controller */,
+				8C839FF52C4AEE06005B4D35 /* Info.plist */,
+				8C839FF22C4AEE06005B4D35 /* LaunchScreen.storyboard */,
+				8C839FED2C4AEE04005B4D35 /* Main.storyboard */,
+				8C83A0002C4AEFA8005B4D35 /* Networking */,
 				8C839FE92C4AEE04005B4D35 /* SceneDelegate.swift */,
 				8C839FEB2C4AEE04005B4D35 /* ViewController.swift */,
-				8C839FED2C4AEE04005B4D35 /* Main.storyboard */,
-				8C839FF02C4AEE06005B4D35 /* Assets.xcassets */,
-				8C839FF22C4AEE06005B4D35 /* LaunchScreen.storyboard */,
-				8C839FF52C4AEE06005B4D35 /* Info.plist */,
-				8C839FFE2C4AEF19005B4D35 /* AppContainer.swift */,
 			);
 			path = DependencyInjectionAndSwinject;
+			sourceTree = "<group>";
+		};
+		8C83A0002C4AEFA8005B4D35 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				8C83A0012C4B074D005B4D35 /* HTTPRequest.swift */,
+				8C83A0032C4B0760005B4D35 /* BasicHTTPRequest.swift */,
+				8C83A0052C4B0779005B4D35 /* JSONHTTPRequest.swift */,
+				8C83A0072C4B0799005B4D35 /* NetworkClient.swift */,
+				8C83A0092C4B082B005B4D35 /* URLSessionNetworkClient.swift */,
+				8C83A00B2C4B0892005B4D35 /* DefaultNetworkService.swift */,
+				8C83A0162C4B1C0F005B4D35 /* JSONDecoderService.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		8C83A0152C4B0BF7005B4D35 /* Data View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8C83A00D2C4B09F5005B4D35 /* AppetizersMenuItem.swift */,
+				8C83A00F2C4B0A44005B4D35 /* DataContracts.swift */,
+				8C83A0112C4B0A59005B4D35 /* DefaultDataPresenter.swift */,
+				8C83A0132C4B0BF1005B4D35 /* DataViewController.swift */,
+			);
+			path = "Data View Controller";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,10 +198,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C83A0122C4B0A59005B4D35 /* DefaultDataPresenter.swift in Sources */,
+				8C83A0042C4B0760005B4D35 /* BasicHTTPRequest.swift in Sources */,
 				8C839FEC2C4AEE04005B4D35 /* ViewController.swift in Sources */,
 				8C839FFF2C4AEF19005B4D35 /* AppContainer.swift in Sources */,
+				8C83A0022C4B074D005B4D35 /* HTTPRequest.swift in Sources */,
+				8C83A0102C4B0A44005B4D35 /* DataContracts.swift in Sources */,
+				8C83A0172C4B1C0F005B4D35 /* JSONDecoderService.swift in Sources */,
+				8C83A00C2C4B0892005B4D35 /* DefaultNetworkService.swift in Sources */,
+				8C83A0062C4B0779005B4D35 /* JSONHTTPRequest.swift in Sources */,
+				8C83A0142C4B0BF1005B4D35 /* DataViewController.swift in Sources */,
 				8C839FE82C4AEE04005B4D35 /* AppDelegate.swift in Sources */,
 				8C839FEA2C4AEE04005B4D35 /* SceneDelegate.swift in Sources */,
+				8C83A00E2C4B09F5005B4D35 /* AppetizersMenuItem.swift in Sources */,
+				8C83A00A2C4B082B005B4D35 /* URLSessionNetworkClient.swift in Sources */,
+				8C83A0082C4B0799005B4D35 /* NetworkClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
