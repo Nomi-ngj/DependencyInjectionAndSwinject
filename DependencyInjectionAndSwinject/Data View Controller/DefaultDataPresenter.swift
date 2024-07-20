@@ -10,13 +10,14 @@ import Foundation
 class DefaultDataPresenter: DataPresenter {
     private weak var view: DataView?
     private let networkService: NetworkService
-    private let jsonDecoderService = JSONDecoderService()
+    private let jsonDecoderService:JSONDecoderService
 
     private let dataURL = URL(string: "https://seanallen-course-backend.herokuapp.com/swiftui-fundamentals/appetizers")!
 
-    init(view: DataView?, networkService: NetworkService) {
+    init(view: DataView?, networkService: NetworkService, jsonDecoderService: JSONDecoderService) {
         self.view = view
         self.networkService = networkService
+        self.jsonDecoderService = jsonDecoderService
     }
 
     func loadData() {

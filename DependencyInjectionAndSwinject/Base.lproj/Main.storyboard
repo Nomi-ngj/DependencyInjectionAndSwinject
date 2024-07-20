@@ -38,10 +38,10 @@
             </objects>
             <point key="canvasLocation" x="817.55725190839689" y="20.422535211267608"/>
         </scene>
-        <!--View Controller-->
+        <!--Data View Controller-->
         <scene sceneID="bSC-qW-J1G">
             <objects>
-                <viewController id="mFj-ue-DRV" customClass="ViewController" customModule="DependencyInjectionAndSwinject" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DataViewController" id="mFj-ue-DRV" customClass="DataViewController" customModule="DependencyInjectionAndSwinject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="NJA-Mc-cnq">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
